@@ -1,0 +1,4 @@
+node_modules/
+*.local.mjs
+package-lock.json
+.DS_Store

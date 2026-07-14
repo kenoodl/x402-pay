@@ -1,0 +1,32 @@
+{
+  "name": "x402-pay",
+  "version": "0.1.0",
+  "description": "Turn any wallet into a fetch that pays. The client-side glue between having a funded wallet and paying any x402 service.",
+  "type": "module",
+  "main": "index.mjs",
+  "exports": {
+    ".": "./index.mjs"
+  },
+  "files": [
+    "index.mjs",
+    "README.md"
+  ],
+  "keywords": [
+    "x402",
+    "payments",
+    "usdc",
+    "base",
+    "agents",
+    "fetch",
+    "wallet"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "@x402/fetch": "^2.18",
+    "@x402/evm": "^2.18",
+    "viem": "^2.21"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
